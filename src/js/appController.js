@@ -81,7 +81,8 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojknockouttemplateutils',
       // Application Name used in Branding Area
       self.appName = ko.observable("App Name");
       // User Info used in Global Navigation area
-      self.userLogin = ko.observable("john.hancock@oracle.com");
+      //self.userLogin = ko.observable("john.hancock@oracle.com");
+      self.userLogin = ko.observable("steven.robert.ford@oracle.com");
 
       // Footer
       function footerLink(name, id, linkTarget) {
